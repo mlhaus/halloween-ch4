@@ -6,7 +6,7 @@
 - In the html footer, add both partners names.
 - Create a new folder called "styles". Inside that folder create an external style sheet called "main.css".
 - Create a `<link>` tag as a child of the `<head>` section in the html file. Link it to the new css file.
-- [https://necolas.github.io/normalize.css/](Download the normalize.css file). Place it in your "styles" folder. Create a new `<link>` tag before the other that links to this new css file.
+- [Download the normalize.css file](https://necolas.github.io/normalize.css/). Place it in your "styles" folder. Create a new `<link>` tag before the other that links to this new css file.
 - In "Chapter 3, Part 1, How to code text elements", you learned about Google Fonts. Go to [https://fonts.google.com](https://fonts.google.com). Select a sans-serif font for body text. Select a display or handwriting font for headings.
 - Copy the `<link>` tags and paste them above the other `<link>` tag in your HTML, or copy and paste the `@import` statements in your CSS.
 - In the CSS file:
@@ -28,7 +28,7 @@
 - In the CSS file:
   - Create a `main h1:first-letter` selector. Set `font-size` to a value in `rem` to format the first letter of the first heading in the main content so it's larger than the other letters in the heading.
   - Create a `header img` selector. Set `float` to `left` so the image floats to the left and indent both headings. 
-  - Create a `header:after` selector. [https://css-tricks.com/snippets/css/clear-fix/](Add a clearfix) because the header is the parent element of the image you just floated.
+  - Create a `header:after` selector. [Add a clearfix](https://css-tricks.com/snippets/css/clear-fix/) because the header is the parent element of the image you just floated.
   - Use the `header h2` selector to change the color of the first heading to orange (using hexadecimal), and italicize it.
   - Use the `header h2` to either and add a black shadow or a Google font effect as described in "Chapter 3, Part 1, How to code text elements".
   - Create a `header h2, header h3` selector to either set `margin-left` or `text-indent` to 25px to add a little separation between the pumpkin image and the header text.
